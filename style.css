@@ -1,109 +1,110 @@
 body{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 .wrapper{
 	margin: 0;
 	padding: 0;
-	width: 100%;
 	box-sizing: border-box;
+	width: 100%;
 }
 
+/*top section css start*/
 .top{
 	margin: 0 auto;
-	padding: 0;
-	width: 1170px;
+	padding:15px 0;
 	box-sizing: border-box;
 	overflow: hidden;
-	border-bottom: 1px solid #f0f0f0;
+	width: 960px;
+	border-bottom: 1px solid #6a6a6a;
 }
 
 .logo{
 	margin: 0;
-	padding: 20px 0;
-	width: 70%;
-	float: left;
+	padding:0;
 	box-sizing: border-box;
+	width: 65%;
+	float: left;
 	overflow: hidden;
 }
 
 .logo_img{
-	width: 5%;
-	padding: 0;
-	float: left;
+	width: 9%;
 	box-sizing: border-box;
-}
-
-.logo_img img{
-	width: 100%;
+	float: left;
+	padding-top: 6px;
 }
 
 .logo_text{
-	width: 95%;
-	padding: 0;
-	float: right;
+	width: 91%;
 	box-sizing: border-box;
+	float: right;
 }
 
-.logo_text h1{
-	margin: 0;
-	padding-top: 3px;
-	padding-left: 10px;
-	color: #6a6a6a;
+.logo_text h2{
 	font-family: sans-serif;
-
+	color: #6a6a6a;
 }
 
 .media_icon{
 	margin: 0;
-	padding-top: 8px;
-	width: 30%;
-	float: right;
+	padding-top:  2px;
 	box-sizing: border-box;
+	width: 35%;
+	float: right;
 	text-align: right;
+	position: relative;
+}
+
+.media_icon span{
+	position: absolute;
+	left: 130px;
+	bottom: 10px;
 }
 
 .media_icon ul{
-	list-style: none;
+	list-style: none;	
 }
 
 .media_icon ul li{
 	display: inline-block;
-	padding-left: 5px;
+	padding-right: 5px;
 }
+/*top section css end*/
 
+/*menu section css start*/
 .menu{
-	margin: 0 auto;
-	padding: 0;
-	width: 1170px;
+	margin: 0 ;
+	padding-left:  160px;
 	box-sizing: border-box;
-	text-align: left;
+	width: 960px;
 }
 
 .menu ul{
 	list-style: none;
-	padding: 10px 0;
 }
 
 .menu ul li{
 	display: inline-block;
-	text-align: left;
-	font-family: sans-serif;
-	color: #6a6a6a;
-	margin-right: 10px;
 	font-weight: bold;
+	font-family: sans-serif;
+	padding-right: 25px;
+	color: #707070;
 }
 
-.menu span{
-	color: #1ec96b;
+.menu ul li span{
+	color: #0dca65;
 }
+/*menu section css end*/
 
+/*slider section css start*/
 .slider{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	text-align: center;
+	box-sizing: border-box;
 }
 
 .a img{
@@ -111,88 +112,122 @@ body{
 	position: relative;
 }
 
-.b{
-	width: 100%;
+.b img{
 	position: absolute;
-	bottom: 5px;
-	right: 45px;
+	top: 230px;
+	left: 220px;
 }
 
 .slider_text{
-	margin-top: 100px;
-	height: 20vh;
+	width: 760px;
+	margin: 0 auto;
+	padding-top: 100px;
+	text-align: center;	
+	height: 30vh;
 }
 
-.slider_text h5{
-	color: #6a6a6a;
+.slider_text h4{
+	margin: 0;
+	color: #acacac;
 	font-family: sans-serif;
+	font-size: 15px;
+	padding-bottom: 35px;
 }
 
 .slider_text button{
-	padding: 10px;
-	background: #1ec96b;
 	border: none;
-	border-radius: 2px;
+	padding: 12px;
+	background: #2dcc70;
 	color: white;
 	font-weight: bold;
+	font-family: sans-serif;
+	border-radius: 2px;
 }
+/*slider section css end*/
 
+/*bot section css start*/
 .bot{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	overflow: hidden;
-	box-sizing: border-box;
-	font-family: sans-serif;
-	text-align: center;
 	background: #332f30;
-	height: 15vh;
+	box-sizing: border-box;
+	height: 20vh;
+}
+
+.banner{
+	margin: 0 auto;
+	padding-top: 35px;
+	width: 960px;
+	box-sizing: border-box;
+	overflow: hidden;
+	color: white;
+	font-family: sans-serif;
 }
 
 .x{
-	width: 50%;
+	width: 70%;
 	float: left;
+	text-align: left;
 	box-sizing: border-box;
-	color: white;
-	padding-top: 25px;
 }
 
 .y{
-	width: 50%;
+	width: 30%;
 	float: right;
+	text-align: right;
 	box-sizing: border-box;
-	padding-top: 46px;
+	padding-top: 15px;
 }
 
 .y button{
 	border: none;
-	background: #1ec96b;
-	border-radius: 2px;
-	padding: 7px;
+	padding: 12px;
+	background: #2dcc70;
 	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	border-radius: 2px;
 }
+/*bot section css end*/
 
+/*footer section css start*/
 .footer{
-	width: 1170px;
 	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+	box-sizing: border-box;
 	overflow: hidden;
-	box-sizing: border-box;
 }
 
-.left{
+.c{
 	width: 50%;
 	box-sizing: border-box;
-	float: left;
 	text-align: left;
-	color: #6a6a6a;
+	float: left;
 	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding-top: 12px;
+	color: #acacac;
 }
 
-.right{
+.d{
 	width: 50%;
 	box-sizing: border-box;
-	float: right;
 	text-align: right;
-	color: #6a6a6a;
-	font-family: sans-serif;
+	float: right;
 }
+
+.d ul{
+	list-style: none;
+}
+
+.d ul li{
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #acacac;
+}
+/*footer section css end*/
